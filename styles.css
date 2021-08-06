@@ -33,4 +33,5 @@ header {
 header .logo {
     position: relative;
     color: hsl(0, 0%, 100%);
+    font-size: 2em;
 }
