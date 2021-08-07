@@ -39,3 +39,7 @@ header .logo {
     letter-spacing: 2px;
     text-decoration: none;
 }
+
+header .logo span {
+  color: #37d72f;
+}
