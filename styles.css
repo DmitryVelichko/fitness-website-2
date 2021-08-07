@@ -88,6 +88,25 @@ header .toggle img {
   font-size: 3em;
 }
 
+.banner .textBox p {
+  color: #fff;
+  font-size: 1.1em;
+  margin: 5px 0 25px;
+}
+
+.banner .textBox a {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  text-decoration: none;
+  color: #111;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .banner .imgBox {
   position: relative;
   height: 100vh;
