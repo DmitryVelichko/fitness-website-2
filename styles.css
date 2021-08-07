@@ -20,24 +20,24 @@ header {
 }
 
 .banner {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 0 100px;
-    background: hsl(0, 0%, 7%);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 100px;
+  background: hsl(0, 0%, 7%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 header .logo {
-    position: relative;
-    color: hsl(0, 0%, 100%);
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-decoration: none;
+  position: relative;
+  color: hsl(0, 0%, 100%);
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
 header .logo span {
@@ -83,3 +83,12 @@ header .toggle img {
   max-width: 600px;
 }
 
+.banner .imgBox {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  z-index: 2;
+}
