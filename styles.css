@@ -83,6 +83,11 @@ header .toggle img {
   max-width: 600px;
 }
 
+.banner .textBox h2 {
+  color: #fff;
+  font-size: 3em;
+}
+
 .banner .imgBox {
   position: relative;
   height: 100vh;
