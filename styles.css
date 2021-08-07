@@ -43,3 +43,12 @@ header .logo {
 header .logo span {
   color: #37d72f;
 }
+
+header .toggle {
+  max-width: 60px;
+  cursor: pointer;
+}
+
+header .toggle img {
+  max-width: 100%;
+}
