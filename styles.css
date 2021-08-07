@@ -62,4 +62,24 @@ header .toggle img {
   height: 100%;
   background: #37d72f;
   transform-origin: top;
+  transform: skewX(-25deg);
+  z-index: 1;
 }
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.banner .textBox {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
