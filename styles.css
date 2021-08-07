@@ -123,3 +123,30 @@ header .toggle img {
   height: 90%;
   z-index: 10000;
 }
+
+.sci {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.sci li a img {
+  transform: scale(0.5);
+  filter: invert(1);
+}
+
+.fb {
+  margin-right: 7px;
+}
